@@ -1,0 +1,13 @@
+[package]
+name = "solana_mev_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-client = "1.14.0"
+solana-sdk = "1.14.0"
+tokio = { version = "1.31", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"  # Optional for logging
+thiserror = "1.0"  # Optional for error handling
+futures = "0.3"  # Optional for async utilities
